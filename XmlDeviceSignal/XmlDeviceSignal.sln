@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlDeviceSignal", "XmlDeviceSignal\XmlDeviceSignal.csproj", "{2DFFC014-C235-4ED6-9053-AA1C94425BDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Filler", "Filler\Filler.csproj", "{FE2DDAA3-108C-483C-8F6D-0746141E2922}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DFFC014-C235-4ED6-9053-AA1C94425BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DFFC014-C235-4ED6-9053-AA1C94425BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DFFC014-C235-4ED6-9053-AA1C94425BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DFFC014-C235-4ED6-9053-AA1C94425BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE2DDAA3-108C-483C-8F6D-0746141E2922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE2DDAA3-108C-483C-8F6D-0746141E2922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE2DDAA3-108C-483C-8F6D-0746141E2922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE2DDAA3-108C-483C-8F6D-0746141E2922}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A44D4C8C-C90E-4CAE-A42D-BA6EFC5B941A}
+	EndGlobalSection
+EndGlobal
