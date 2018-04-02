@@ -1,0 +1,10 @@
+E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\Filler\bin\Debug\Filler.exe.config
+E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\Filler\bin\Debug\Filler.exe
+E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\Filler\bin\Debug\Filler.pdb
+E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\Filler\obj\Debug\Filler.csprojResolveAssemblyReference.cache
+E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\Filler\obj\Debug\Filler.Form1.resources
+E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\Filler\obj\Debug\Filler.Properties.Resources.resources
+E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\Filler\obj\Debug\Filler.csproj.GenerateResource.cache
+E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\Filler\obj\Debug\Filler.csproj.CoreCompileInputs.cache
+E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\Filler\obj\Debug\Filler.exe
+E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\Filler\obj\Debug\Filler.pdb
