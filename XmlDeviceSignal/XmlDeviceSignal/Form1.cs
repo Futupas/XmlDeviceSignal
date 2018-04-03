@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Xml;
 using System.Windows.Forms;
+using System.IO;
+using System.Text;
 
 namespace XmlDeviceSignal
 {
@@ -84,6 +86,7 @@ namespace XmlDeviceSignal
         public PanResponse OnRequest(PanRequest request)
         {
             if (request.Address.Length < 1) return PanResponse.ReturnFile("./Website/index.html");
+            else if (request.Address[0].ToLower() == "index") return PanResponse.ReturnFile("./Website/index.html");
             else if (request.Address[0].ToLower() == "styles.css") return PanResponse.ReturnFile("./Website/styles.css");
             else if (request.Address[0].ToLower() == "app.js") return PanResponse.ReturnFile("./Website/app.js");
             else if (request.Address[0].ToLower() == "getsignals")
@@ -93,6 +96,44 @@ namespace XmlDeviceSignal
             else if (request.Address[0].ToLower() == "getdevices")
             {
                 return PanResponse.ReturnJson(devices);
+            }
+            else if (request.Address[0].ToLower() == "setsignals")
+            {
+                try
+                {
+                    string json = System.Web.HttpUtility.UrlDecode(request.Data["signals"]);
+                    List<Signal> signals = new List<Signal>();
+                    signals = Newtonsoft.Json.JsonConvert.DeserializeObject<List<Signal>>(json);
+
+                    XmlDocument xml = new XmlDocument();
+                    XmlElement xRoot = xml.CreateElement("signals");
+                    xml.AppendChild(xRoot);
+
+                    foreach (var s in signals)
+                    {
+                        XmlElement sig = xml.CreateElement("signal");
+                        sig.SetAttribute("id", s.id.ToString());
+                        sig.SetAttribute("name", s.name);
+                        foreach (var d in s.devices)
+                        {
+                            XmlElement dev = xml.CreateElement("device");
+                            dev.SetAttribute("id", d.id.ToString());
+                            dev.SetAttribute("name", d.name);
+                            sig.AppendChild(dev);
+                        }
+                        xRoot.AppendChild(sig);
+                    }
+
+                    MemoryStream xmlstream = new MemoryStream();
+                    xml.Save(xmlstream);
+                    xmlstream.Position = 0;
+
+                    return PanResponse.ReturnFile(xmlstream, "text/xml");
+                }
+                catch (Exception ex)
+                {
+                    return PanResponse.ReturnCode(500, ex.Message);
+                }
             }
 
             return PanResponse.ReturnEmtry();

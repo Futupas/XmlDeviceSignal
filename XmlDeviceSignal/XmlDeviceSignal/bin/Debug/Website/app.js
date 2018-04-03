@@ -53,6 +53,7 @@ function SendData () {
     for (var i = 0; i < signals.length; i++) {
         var sigrow = document.querySelector('table tr[signalid="' + signals[i].id + '"]');
         var checked = sigrow.querySelectorAll('td > input[type="checkbox"][deviceid]:checked');
+        signals[i].devices = [];
         for(var j = 0; j < checked.length; j++)
             signals[i].devices.push(devices.filter((e) => { return (e.id == checked[j].getAttribute('deviceid')*1); })[0]);
     }
@@ -64,6 +65,16 @@ function SendData () {
     if (xhr.status != 200) {
         alert(xhr.status + ': ' + xhr.statusText);
     } else {
-        
+        // console.log(xhr.responseText);
+        var ael = document.createElement('a');
+        ael.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(xhr.responseText));
+        ael.setAttribute('download', 'signals.xml');
+
+        ael.style.display = 'none';
+        document.body.appendChild(ael);
+
+        ael.click();
+
+        document.body.removeChild(ael);
     }
 }
