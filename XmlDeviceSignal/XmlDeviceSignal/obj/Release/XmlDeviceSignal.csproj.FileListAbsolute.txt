@@ -1,0 +1,11 @@
+E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\XmlDeviceSignal\bin\Release\XmlDeviceSignal.exe.config
+E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\XmlDeviceSignal\bin\Release\XmlDeviceSignal.exe
+E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\XmlDeviceSignal\bin\Release\XmlDeviceSignal.pdb
+E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\XmlDeviceSignal\bin\Release\Newtonsoft.Json.dll
+E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\XmlDeviceSignal\obj\Release\XmlDeviceSignal.Form1.resources
+E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\XmlDeviceSignal\obj\Release\XmlDeviceSignal.Properties.Resources.resources
+E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\XmlDeviceSignal\obj\Release\XmlDeviceSignal.csproj.GenerateResource.cache
+E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\XmlDeviceSignal\obj\Release\XmlDeviceSignal.csproj.CoreCompileInputs.cache
+E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\XmlDeviceSignal\obj\Release\XmlDeviceSignal.csproj.CopyComplete
+E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\XmlDeviceSignal\obj\Release\XmlDeviceSignal.exe
+E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\XmlDeviceSignal\obj\Release\XmlDeviceSignal.pdb

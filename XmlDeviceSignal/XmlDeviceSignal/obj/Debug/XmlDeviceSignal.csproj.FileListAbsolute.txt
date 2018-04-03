@@ -6,7 +6,6 @@ E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\XmlDeviceSignal\bin\Debug\XmlDeviceS
 E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\XmlDeviceSignal\bin\Debug\XmlDeviceSignal.exe
 E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\XmlDeviceSignal\bin\Debug\XmlDeviceSignal.pdb
 E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\XmlDeviceSignal\bin\Debug\Newtonsoft.Json.dll
-E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\XmlDeviceSignal\bin\Debug\Newtonsoft.Json.xml
 E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\XmlDeviceSignal\obj\Debug\XmlDeviceSignal.csproj.CopyComplete
 E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\XmlDeviceSignal\obj\Debug\XmlDeviceSignal.exe
 E:\PROJECTS\XmlDeviceSignal\XmlDeviceSignal\XmlDeviceSignal\obj\Debug\XmlDeviceSignal.pdb

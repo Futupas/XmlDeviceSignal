@@ -77,6 +77,7 @@ namespace XmlDeviceSignal
                     Task.Factory.StartNew(() =>
                     {
                         Stream output = context.Response.OutputStream;
+                        //output.Position = 0;
 
                         // GET Cookies
                         List<PanCookie> cookies = new List<PanCookie>();
